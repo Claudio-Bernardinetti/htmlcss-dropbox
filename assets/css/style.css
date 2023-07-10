@@ -224,5 +224,30 @@ main {
 .icon_check i {
     color: var(--db-button_blue);
 }
-
 /*Utilitis Second Container*/
+
+.container_3 .row_3 {
+    margin-top: -150px;
+    display: flex;
+    height: 760px;
+}
+
+.row .left {
+    width: 55%;
+}
+
+.row_3 .right {
+    width: 45%;
+    padding-left: 30px;
+    padding-top: 50px;
+}
+
+.row_3 .right h3, p {
+    padding-bottom: 30px ;
+}
+
+.row_3 .right button {
+    background-color: var(--db-white);
+    padding: 5px 10px; 
+}
+/*Third Section*/
