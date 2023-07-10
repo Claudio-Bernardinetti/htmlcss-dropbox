@@ -277,3 +277,9 @@ main {
 .container_4 .box_a_top, .box_b_top, .box_c_top, .box_d_bottom, .box_e_bottom, .box_f_bottom {
     width: 300px;
 }
+/*Fourth Section*/
+
+.container_5 h1{
+    font-size: 46px;
+    padding-bottom: 60px;
+}
