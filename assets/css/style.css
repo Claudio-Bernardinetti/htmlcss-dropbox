@@ -45,6 +45,10 @@ a:hover {
     padding: 5px 10px;
 }
 
+.container_2, .container_3, .container_4, .container_5, .container_6, .container_7, .container_8 {
+    margin: 15%;
+}
+
 /*Utilitis*/
 
 header {
@@ -67,7 +71,7 @@ header {
 
 main {
      height: 100vh;
-     /*margin: 0 15%;*/
+     
 }
 /* Region Main*/
 
@@ -101,7 +105,124 @@ main {
     margin-bottom: 30px;
 }
 
-.container_1 i{
-    padding-top: 40px;
-}
+
 /*Utilitis First Container*/
+
+.container_2 {
+    height: 1595px;
+    margin-top: 0;
+}
+
+.row_2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.row_2 .card_top {
+    height: 40px;
+    border-bottom: solid 1px grey;
+    text-align: center;
+    padding-top: 6px;
+}
+
+.row_2 .card_bottom {
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.row_2 .card_end {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+    border: solid 1px grey;
+    margin-top: 56px;
+}
+
+.card_end .card_bott{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+
+.card_bott .card_l {
+    width: 60%;
+}
+
+.card_bott .card_l h3{
+    padding-bottom: 30px;
+}
+
+.card_bott .card_l p {
+    padding-bottom: 50px;
+}
+
+.card_bott .card_r button {
+    width: 240px;
+   
+}
+/*Second Container*/
+
+.card_left, .card_midle, .card_right {
+    border: solid 1px grey;
+    height: 915px;
+    width: 300px;
+}
+
+.container_2 h1 {
+    font-size: 46px;
+    margin-top: 160px;
+    padding-bottom: 70px;
+}
+.container_2 input {
+    border-radius: 50%;
+}
+
+.container_2 > span {
+    margin-right: 50px;
+}
+
+.container_2 .card_bottom h3 {
+    padding-top: 20px;
+    padding-bottom: 30px;
+   
+}
+
+.container_2 .card_bottom button {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.container_2 .card_bottom hr{
+    width: 20%;
+    margin-bottom: 30px;
+}
+
+.container_2 .card_bottom p {
+    padding-bottom: 30px;
+}
+
+.icon_1, .icon_2, .icon_3, .icon_check {
+    display: flex;
+    
+}
+
+.card_bottom i{
+    padding-right: 5px;
+    padding-top: 3px;  
+}
+
+.icon_check i {
+    color: var(--db-button_blue);
+}
+
+/*Utilitis Second Container*/
