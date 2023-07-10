@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+
+
+:root {
+    --db-button_blue:#0061ff;
+    --db-backg_ciano:#b4d0e7;
+    --db-black: #000000;
+    --db-card_l_a: #a2d39b;
+    --db-card_l_aa: #d1e9cd;
+    --db-card_l_b: #61082b;
+    --db-card_l_c:#0093ce;
+    --db-card_l_d:#ff1c1c;
+    --db-card_designit:#f5f5f5;
+    --db-card_r_a: #d5001f;
+    --db-card_r_b: #b4d0e7;
+    --db-card_r_c:#0d2481;
+    --db-card_r_d:#ffd830;
+    --db-titolo_pd:#61082b;
+    --db-white:#ffffff;
+}
+
+a{
+   text-decoration: none;
+   color: var(--db-black);
+}
+
+.decor_on {
+    text-decoration: underline;
+}
+
+.but_prope {
+    background-color: var(--db-button_blue);
+    color: var(--db-white);
+    padding: 5px 10px;
+
+}
+
+/*Utilitis*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+}
+
+.nav_left, .nav_right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 35%;
+    padding: 0px 20px;
+}
+
