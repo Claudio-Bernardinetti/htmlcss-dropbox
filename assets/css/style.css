@@ -25,20 +25,24 @@
     --db-white:#ffffff;
 }
 
-a{
-   text-decoration: none;
-   color: var(--db-black);
+a {
+    text-decoration: none;
+    color: var(--db-black); 
+}
+
+a:hover {
+    color: red;
 }
 
 .decor_on {
     text-decoration: underline;
+    color:#0000EE;
 }
 
 .but_prope {
     background-color: var(--db-button_blue);
     color: var(--db-white);
     padding: 5px 10px;
-
 }
 
 /*Utilitis*/
@@ -49,6 +53,7 @@ header {
     align-items: center;
     height: 80px;
     width: 100%;
+    font-size: 18px;
 }
 
 .nav_left, .nav_right {
@@ -58,4 +63,45 @@ header {
     width: 35%;
     padding: 0px 20px;
 }
+/* Region Header*/
 
+main {
+     height: 100vh;
+     /*margin: 0 15%;*/
+}
+/* Region Main*/
+
+.container_1 {
+    background-color: var(--db-backg_ciano);
+    height: 740px;
+    width: 100%;
+    padding: 0 15%;
+    padding-top: 100px;
+}
+
+.container_1>h1{
+    font-size: 72px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+
+.box_left{
+    width: 30%;
+}
+.box_right {
+    width: 70%;
+}
+/*First Container*/
+.container_1  button {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.container_1 i{
+    padding-top: 40px;
+}
+/*Utilitis First Container*/
