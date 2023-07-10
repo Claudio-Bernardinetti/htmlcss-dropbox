@@ -5,6 +5,11 @@
     font-family: 'Open Sans', sans-serif; 
 }
 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 
 
 :root {
@@ -174,7 +179,7 @@ main {
 
 .card_left, .card_midle, .card_right {
     border: solid 1px grey;
-    height: 915px;
+    height: auto;
     width: 300px;
 }
 
@@ -229,7 +234,7 @@ main {
 .container_3 .row_3 {
     margin-top: -150px;
     display: flex;
-    height: 760px;
+    height: auto;
 }
 
 .row .left {
@@ -251,3 +256,24 @@ main {
     padding: 5px 10px; 
 }
 /*Third Section*/
+
+.container_4 h1{
+    padding-bottom: 60px;
+    font-size: 46px;
+}
+
+.container_4 .row_4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: auto;
+    width: 100%;
+}
+
+.container_4 h3 {
+    padding-bottom: 30px;
+}
+
+.container_4 .box_a_top, .box_b_top, .box_c_top, .box_d_bottom, .box_e_bottom, .box_f_bottom {
+    width: 300px;
+}
