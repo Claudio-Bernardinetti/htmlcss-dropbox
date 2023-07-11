@@ -77,6 +77,7 @@ header {
     font-size: 18px;
     position: fixed;
     border-bottom: 1px solid lightgray;
+    z-index: 10;
 }
 
 .nav_left, .nav_right {
@@ -87,9 +88,6 @@ header {
     padding: 0px 20px;
 }
 /* Region Header*/
-
-
-     
 
 /* Region Main*/
 
@@ -121,12 +119,6 @@ header {
     margin-bottom: -100px;
 }
 /*First Container*/
-.container_1  button {
-    
-}
-
-
-/*Utilitis First Container*/
 
 .container_2 {
     padding-top: 160px;
@@ -138,7 +130,6 @@ header {
     justify-content: space-between;
     width: 100%;
     padding-top: 50px;
-   
 }
 
 .row_2 .card_top {
@@ -215,11 +206,11 @@ header {
 
 .container_2 .card_bottom button {
     width: 100%;
-    
 }
 
 .container_2 .card_bottom hr{
     width: 20%;
+    margin-bottom: 30px;
 }
 
 .container_2 .card_bottom p {
@@ -338,6 +329,7 @@ header {
     height: 50%;
 }
 /*Sixth Section general*/
+
 .square_a, .square_b, .square_c, .square_d {
     display: flex;
     justify-content: center;
@@ -419,4 +411,27 @@ header {
     padding: 5px 10px; 
 }
 /*Seventh Section square*/
+
+.container_8 {
+    position: relative;
+    height: 730px;
+    padding-top: 100px;
+}
+
+.container_8 h1 {
+    padding-bottom: 50px ;
+}
+
+.text_cont8 h5 {
+    
+    padding: 40px 0;
+}
+
+.text_cont8 a {
+    position: absolute;
+    right: 5%;
+    top: 32%;
+}
+
+
 
