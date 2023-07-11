@@ -43,7 +43,13 @@ a {
 }
 
 a:hover {
-    color: red;
+    color: rgb(108, 228, 247);
+    border-bottom: 1px solid #000000;  
+}
+
+.nav_left > a:hover {
+    border-bottom: 2px solid lightgrey;
+    box-shadow: 0px 3px 3px 0px lightgrey;
 }
 
 .decor_on {
@@ -55,6 +61,20 @@ a:hover {
     background-color: var(--db-button_blue);
     color: var(--db-white);
     padding: 5px 10px;
+}
+
+.but_prope:hover  {
+    cursor: pointer;
+    transition: 0.2s;
+    background-color: #0093ce;
+}
+
+.but_white:hover {
+    cursor: pointer;
+    transition: 0.2s;
+    background-color: #6e6b6b;
+    box-shadow: inset 0px 2px 2px 0px;
+    color: white;
 }
 
 p {
@@ -253,7 +273,6 @@ header {
 }
 
 .row_3 .right button {
-    background-color: var(--db-white);
     padding: 5px 10px; 
 }
 /*Third Section*/
@@ -477,7 +496,7 @@ ul > li {
     margin-bottom: 50px;
 }
 
-.list_a a, span {
+.list_a, a span {
     color: lightgrey;
     padding-right: 0.5rem;
 }
