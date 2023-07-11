@@ -62,7 +62,7 @@ p {
 }
 
 .container_2, .container_3, .container_4, .container_5, .container_8 {
-    margin: 15%;
+    margin: 0 15%;
 }
 
 /*Utilitis*/
@@ -71,16 +71,19 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: var(--db-white);
     height: 80px;
     width: 100%;
     font-size: 18px;
+    position: fixed;
+    border-bottom: 1px solid lightgray;
 }
 
 .nav_left, .nav_right {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 35%;
+    width: 40%;
     padding: 0px 20px;
 }
 /* Region Header*/
@@ -126,7 +129,7 @@ header {
 /*Utilitis First Container*/
 
 .container_2 {
-    padding-top: 60px;
+    padding-top: 160px;
 }
 
 .row_2 {
@@ -168,7 +171,6 @@ header {
     padding-top: 20px;
     padding-left: 30px;
     padding-right: 30px;
-    
 }
 
 .card_bott .card_l {
@@ -208,9 +210,7 @@ header {
 }
 
 .container_2 .card_bottom h3 {
-    
     padding-bottom: 30px;
-   
 }
 
 .container_2 .card_bottom button {
@@ -220,7 +220,6 @@ header {
 
 .container_2 .card_bottom hr{
     width: 20%;
-    
 }
 
 .container_2 .card_bottom p {
@@ -243,9 +242,9 @@ header {
 /*Utilitis Second Container*/
 
 .container_3 .row_3 {
-    
     display: flex;
     height: auto;
+    padding-top: 160px;
 }
 
 .row .left {
@@ -271,6 +270,7 @@ header {
 .container_4 h1{
     padding-bottom: 60px;
     font-size: 46px;
+    padding-top: 100px;
 }
 
 .container_4 .row_4 {
@@ -279,6 +279,7 @@ header {
     justify-content: space-around;
     height: auto;
     width: 100%;
+    
 }
 
 .container_4 h3 {
@@ -292,26 +293,21 @@ header {
 
 .container_5 h1{
     font-size: 46px;
+    padding-top: 160px;
     padding-bottom: 60px;
 }
 /*Fifth Section*/
 
 .container_6 {
-    margin: auto;
-    height: 500px;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    height: 600px;
 }
-
 
 .box_left_cont6, .box_midle_cont6, .box_right_cont6 {
     float: left;
     width: calc(100% / 12 * 4);
-}
-
-.square_a, .square_b, .square_c, .square_d {
-    display: flex;
-    justify-content: center;
-    width: 50%;
-    height: 50%;
 }
 
 .box_left_cont6 {
@@ -323,16 +319,15 @@ header {
 }
 
 .box_midle_cont6 {
-    width: 33%;
-    height: 100%;
-}
-
-
-.square_e, .square_f, .square_g, .square_h {
+    background-color: var(--db-card_designit);
     display: flex;
-    justify-content: center;
-    width: 50%;
-    height: 50%;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100%;
+    width: 33%;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
 }
 
 .box_right_cont6 {
@@ -342,8 +337,20 @@ header {
     width: 33%;
     height: 50%;
 }
+/*Sixth Section general*/
+.square_a, .square_b, .square_c, .square_d {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+}
 
-
+.square_e, .square_f, .square_g, .square_h {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+}
 
 .square_a {
     background-color: var(--db-card_l_a);
@@ -365,13 +372,6 @@ header {
     height: 100%;
 }
 
-.box_midle_cont6 {
-    background-color: var(--db-card_designit);
-    display: flex;
-    justify-content: flex-start;
-    height: 100%;
-}
-
 .square_e {
     background-color: var(--db-card_r_a);
     height: 100%;
@@ -389,5 +389,12 @@ header {
     height: 100%;
 }
 
+.container_6 hr {
+    border: 1px solid lightgrey;
+    width: 20%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/*Sixth Section square*/
 
 
