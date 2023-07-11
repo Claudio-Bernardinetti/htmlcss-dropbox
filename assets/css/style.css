@@ -314,7 +314,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 33%;
+    width: 33.3%;
     height: 50%;
 }
 
@@ -324,7 +324,7 @@ header {
     flex-direction: column;
     align-items: flex-start;
     height: 100%;
-    width: 33%;
+    width: 33.3%;
     padding-left: 30px;
     padding-top: 30px;
     padding-right: 30px;
@@ -334,7 +334,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 33%;
+    width: 33.3%;
     height: 50%;
 }
 /*Sixth Section general*/
@@ -397,4 +397,26 @@ header {
 }
 /*Sixth Section square*/
 
+.container_7 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: var(--db-backg_ciano);
+    height: 360px;
+}
+
+.container_7 h1 {
+    color: var(--db-titolo_pd);
+    font-size: 46px;
+    padding-left: 15%;
+}
+
+.container_7 button {
+    position: absolute;
+    right: 15%;
+    top: 35%;
+    background-color: var(--db-white);
+    padding: 5px 10px; 
+}
+/*Seventh Section square*/
 
