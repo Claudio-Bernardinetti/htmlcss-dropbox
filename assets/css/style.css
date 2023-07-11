@@ -5,6 +5,10 @@
     font-family: 'Open Sans', sans-serif; 
 }
 
+body{
+    height: 100vh;
+}
+
 .clearfix::after {
     content: "";
     clear: both;
@@ -30,6 +34,9 @@
     --db-white:#ffffff;
 }
 
+.filter-white {
+    filter:invert(100%) sepia(29%) saturate(300%) hue-rotate(187deg) brightness(116%) contrast(100%);
+}
 a {
     text-decoration: none;
     color: var(--db-black); 
@@ -50,7 +57,11 @@ a:hover {
     padding: 5px 10px;
 }
 
-.container_2, .container_3, .container_4, .container_5, .container_6, .container_7, .container_8 {
+p {
+    line-height: 1.5rem;
+}
+
+.container_2, .container_3, .container_4, .container_5, .container_8 {
     margin: 15%;
 }
 
@@ -74,15 +85,13 @@ header {
 }
 /* Region Header*/
 
-main {
-     height: 100vh;
+
      
-}
+
 /* Region Main*/
 
 .container_1 {
     background-color: var(--db-backg_ciano);
-    height: 740px;
     width: 100%;
     padding: 0 15%;
     padding-top: 100px;
@@ -104,18 +113,20 @@ main {
 .box_right {
     width: 70%;
 }
+
+.container_1 img {
+    margin-bottom: -100px;
+}
 /*First Container*/
 .container_1  button {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    
 }
 
 
 /*Utilitis First Container*/
 
 .container_2 {
-    height: 1595px;
-    margin-top: 0;
+    padding-top: 60px;
 }
 
 .row_2 {
@@ -123,7 +134,8 @@ main {
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
-    margin-top: 50px;
+    padding-top: 50px;
+   
 }
 
 .row_2 .card_top {
@@ -173,21 +185,20 @@ main {
 
 .card_bott .card_r button {
     width: 240px;
-   
 }
 /*Second Container*/
 
 .card_left, .card_midle, .card_right {
     border: solid 1px grey;
     height: auto;
-    width: 300px;
+    width: 30%;
 }
 
 .container_2 h1 {
     font-size: 46px;
-    margin-top: 160px;
     padding-bottom: 70px;
 }
+
 .container_2 input {
     border-radius: 50%;
 }
@@ -197,19 +208,19 @@ main {
 }
 
 .container_2 .card_bottom h3 {
-    padding-top: 20px;
+    
     padding-bottom: 30px;
    
 }
 
 .container_2 .card_bottom button {
     width: 100%;
-    margin-bottom: 20px;
+    
 }
 
 .container_2 .card_bottom hr{
     width: 20%;
-    margin-bottom: 30px;
+    
 }
 
 .container_2 .card_bottom p {
@@ -232,7 +243,7 @@ main {
 /*Utilitis Second Container*/
 
 .container_3 .row_3 {
-    margin-top: -150px;
+    
     display: flex;
     height: auto;
 }
@@ -283,3 +294,100 @@ main {
     font-size: 46px;
     padding-bottom: 60px;
 }
+/*Fifth Section*/
+
+.container_6 {
+    margin: auto;
+    height: 500px;
+}
+
+
+.box_left_cont6, .box_midle_cont6, .box_right_cont6 {
+    float: left;
+    width: calc(100% / 12 * 4);
+}
+
+.square_a, .square_b, .square_c, .square_d {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+}
+
+.box_left_cont6 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 33%;
+    height: 50%;
+}
+
+.box_midle_cont6 {
+    width: 33%;
+    height: 100%;
+}
+
+
+.square_e, .square_f, .square_g, .square_h {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+}
+
+.box_right_cont6 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 33%;
+    height: 50%;
+}
+
+
+
+.square_a {
+    background-color: var(--db-card_l_a);
+    height: 100%;
+    box-shadow: inset 0px 0px 0px 10px lightgreen;
+}
+.square_b{
+    background-color: var(--db-card_l_b);
+    height: 100%;
+}
+.square_c{
+    display: flex;
+    align-items: center;
+    background-color: var(--db-card_l_c);
+    height: 100%;
+}
+.square_d{
+    background-color: var(--db-card_l_d);
+    height: 100%;
+}
+
+.box_midle_cont6 {
+    background-color: var(--db-card_designit);
+    display: flex;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+.square_e {
+    background-color: var(--db-card_r_a);
+    height: 100%;
+}
+.square_f{
+    background-color: var(--db-card_r_b);
+    height: 100%;
+}
+.square_g{
+    background-color: var(--db-card_r_c);
+    height: 100%;
+}
+.square_h{
+    background-color: var(--db-card_r_d);
+    height: 100%;
+}
+
+
+
