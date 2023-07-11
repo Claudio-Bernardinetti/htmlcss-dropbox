@@ -446,10 +446,40 @@ header {
 
 .container_foot {
     background-color: var(--db-black);
-    height: 570px;
+    color: var(--db-white);
     width: 100%;
+    padding-top: 80px;
+    padding-bottom: 50px;
 }
 
+.row_foot {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 0 10%;
+}
 
+li > a {
+    color: var(--db-white);
+    line-height: 2rem;
+}
 
+.row_foot ul {
+    padding-top: 40px;
+}
+
+ul > li {
+    list-style: none;
+}
+
+.list_a hr {
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.list_a a, span {
+    color: lightgrey;
+    padding-right: 0.5rem;
+}
+/*Footer End*/
 
