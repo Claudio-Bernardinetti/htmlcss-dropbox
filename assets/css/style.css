@@ -407,10 +407,10 @@ input {
 /*Seventh Section*/
 
 .container_8 {
-    position: relative;
     height: auto;
     padding-top: 100px;
     padding-bottom: 100px;
+
 }
 
 .text_cont8 {
@@ -425,26 +425,30 @@ input {
     padding: 40px 0;
 }
 
-.first_row i, .second_row i, .third_row i {
-    position: absolute;
-    right: 5%;
-    top: 40%;
-}
+
 
 .container_8 p {
     font-size: 14px;
 }
 
-.text_cont8  p {
+.first_row .second_row .third_row, h5 {
+    display: flex;
+    justify-content: space-between;
+    margin-right:  20px;
+}
+
+.first_row p, .second_row p, .third_row p {
     display: none;
 }
 
-
-.text_cont8 p:hover p {
+.first_row:hover p, .second_row:hover p, .third_row:hover p {
     display: block;
 }
 
-
+.first_row:hover i, .second_row:hover i, .third_row:hover i {
+    transform:rotate(180deg);
+    transition: all 0.5s ease-out;
+}
 
 
 /*Octave Section*/
