@@ -5,10 +5,6 @@
     font-family: 'Open Sans', sans-serif; 
 }
 
-body{
-    height: 100vh;
-    
-}
 
 :root {
     --db-button_blue:#0061ff;
@@ -291,7 +287,7 @@ input {
 }
 
 .container_4 .box_a_top, .box_b_top, .box_c_top, .box_d_bottom, .box_e_bottom, .box_f_bottom {
-    width: 300px;
+    width: calc(100% / 3);
 }
 /*Fourth Section*/
 
@@ -344,9 +340,7 @@ input {
     aspect-ratio: 1 / 1;
 }
 
-
 /*Sixth Section general*/
-
 
 .square_a {
     background-color: var(--db-card_l_a);
@@ -410,7 +404,6 @@ input {
     height: auto;
     padding-top: 100px;
     padding-bottom: 100px;
-
 }
 
 .text_cont8 {
@@ -424,8 +417,6 @@ input {
 .text_cont8 h5 { 
     padding: 40px 0;
 }
-
-
 
 .container_8 p {
     font-size: 14px;
@@ -449,8 +440,6 @@ input {
     transform:rotate(180deg);
     transition: all 0.5s ease-out;
 }
-
-
 /*Octave Section*/
 
 .container_foot {
